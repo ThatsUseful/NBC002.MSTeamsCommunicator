@@ -5,18 +5,18 @@
   "id": "148a66bb-e83d-425a-927d-09f4299a9274",
   "packageName": "com.microsoft.teams.companycommunicator",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "name": "NBCUniversal",
+    "websiteUrl": "https://www.nbcuniversal.com/",
+    "privacyUrl": "https://www.nbcuniversal.com/privacy",
+    "termsOfUseUrl": "https://www.nbcuniversal.com/terms"
   },
   "icons": {
     "color": "color.png",
     "outline": "outline.png"
   },
   "name": {
-    "short": "Company Communicator",
-    "full": "Company Communicator"
+    "short": "NBCU Company Communicator",
+    "full": "NBCU Company Communicator"
   },
   "description": {
     "short": "Broadcast messages to multiple teams and people in one go",
