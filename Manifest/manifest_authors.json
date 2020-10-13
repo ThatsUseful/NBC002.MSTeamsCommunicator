@@ -15,7 +15,7 @@
     "outline": "outline.png"
   },
   "name": {
-    "short": "NBCU Company Communicator (Authors)",
+    "short": "NBCU Communicator (Authors)",
     "full": "NBCU Company Communicator (Authors)"
   },
   "description": {
@@ -24,14 +24,14 @@
   },
   "accentColor": "#64A2CC",
   "configurableTabs": [{
-    "configurationUrl": "https://<<appDomain>>/configtab",
+    "configurationUrl": "https://nbcuccresource.azurefd.net/configtab",
     "canUpdateConfiguration": true,
     "scopes": [
       "team"
     ]
   }],
   "bots": [{
-    "botId": "<<botId>>",
+    "botId": "aeb68da6-3d97-4b2d-bbda-432c75ca5442",
     "scopes": [
       "team"
     ],
@@ -43,10 +43,11 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "nbcuccresource.azurefd.net",
+    "localhost"
   ],
   "webApplicationInfo": {
-    "id": "<<botId>>",
-    "resource": "api://<<appDomain>>"
+    "id": "aeb68da6-3d97-4b2d-bbda-432c75ca5442",
+    "resource": "api://nbcuccresource.azurefd.net"
   }
 }

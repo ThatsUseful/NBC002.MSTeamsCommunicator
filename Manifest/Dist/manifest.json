@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0",
-  "id": "148a66bb-e83d-425a-927d-09f4299a9274",
-  "packageName": "com.microsoft.teams.companycommunicator",
+  "id": "1c07cd26-a088-4db8-8928-ace382fa219f",
+  "packageName": "com.microsoft.teams.companycommunicator.authors",
   "developer": {
     "name": "NBCUniversal",
     "websiteUrl": "https://www.nbcuniversal.com/",
@@ -15,21 +15,27 @@
     "outline": "outline.png"
   },
   "name": {
-    "short": "NBCU Communicator",
-    "full": "NBCU Company Communicator"
+    "short": "NBCU Communicator (Authors)",
+    "full": "NBCU Company Communicator (Authors)"
   },
   "description": {
     "short": "Broadcast messages to multiple teams and people in one go",
     "full": "Broadcasts messages to multiple teams and individuals through channel posts and chat messages"
   },
   "accentColor": "#64A2CC",
-  "bots": [{
-    "botId": "<<botId>>",
+  "configurableTabs": [{
+    "configurationUrl": "https://nbcuccresource.azurefd.net/configtab",
+    "canUpdateConfiguration": true,
     "scopes": [
-      "personal",
+      "team"
+    ]
+  }],
+  "bots": [{
+    "botId": "aeb68da6-3d97-4b2d-bbda-432c75ca5442",
+    "scopes": [
       "team"
     ],
-    "supportsFiles": false,
+    "supportsFiles": true,
     "isNotificationOnly": false
   }],
   "permissions": [
@@ -37,6 +43,11 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
-  ]
+    "nbcuccresource.azurefd.net",
+    "db9519f0efa8.ngrok.io"
+  ],
+  "webApplicationInfo": {
+    "id": "aeb68da6-3d97-4b2d-bbda-432c75ca5442",
+    "resource": "api://nbcuccresource.azurefd.net"
+  }
 }
